@@ -1,0 +1,4 @@
+--langdef=SFDCPAGE
+--langmap=SFDCPAGE:.page
+--regex-SFDCPAGE=/id="([a-zA-Z0-9_]+)"/\1/d,definition/
+--langmap=java:+.cls,java:+.trigger
